@@ -1,0 +1,26 @@
+{
+  "name": "source-map-cat",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "source-map-cat": "bin/source-map-cat.js"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "argparse": "~0.1.8",
+    "source-map": "~0.1.8"
+  },
+  "devDependencies": {
+    "coffee-script-redux": "~2.0.0",
+    "mocha": "~1.7.4",
+    "proxyquire": "~0.4.0",
+    "typescript": "~0.8.2"
+  }
+}
