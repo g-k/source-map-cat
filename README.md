@@ -55,6 +55,7 @@ python -m webbrowser -t http://localhost:3000/
 * [CSS Ninja Multi-level source map article](http://www.thecssninja.com/javascript/multi-level-sourcemaps)
 * The [new sections part of the source-map spec](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit?pli=1#heading=h.535es3xeprgt) should save some space
 * [Nick Fitzgerald's weblog](http://fitzgeraldnick.com/weblog/)
+* [Generating source maps](http://qfox.nl/weblog/281)
 
 ##### Tools and Languages with Source Map Support
 
