@@ -20,9 +20,6 @@
     "source-map": "~0.1.8"
   },
   "devDependencies": {
-    "coffee-script-redux": "~2.0.0",
-    "mocha": "~1.7.4",
-    "proxyquire": "~0.4.0",
     "typescript": "~0.8.2"
   }
 }
