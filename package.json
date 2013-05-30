@@ -2,7 +2,7 @@
   "name": "source-map-cat",
   "version": "0.0.0",
   "description": "WIP cat for JS source maps.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "bin": {
     "source-map-cat": "bin/source-map-cat.js"
   },
