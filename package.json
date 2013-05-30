@@ -7,7 +7,7 @@
     "source-map-cat": "bin/source-map-cat.js"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "cd test && make test-setup"
   },
   "repository": {
     "type": "git",
