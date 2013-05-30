@@ -13,7 +13,6 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "coffee-script": "~1.4.0",
     "argparse": "~0.1.8",
     "source-map": "~0.1.8"
   },

@@ -1,13 +1,29 @@
 #!/usr/bin/env node
 'use strict';
 
-var coffee = require("coffee-script");
-var path = require('path');
 var fs = require('fs');
 
-var projectRoot = path.dirname(path.dirname(module.filename));
+var argparse = require('argparse');
 
-// ../lib/cli
-var cliPath = path.join(projectRoot, 'lib', 'cli');
+var lib = require('../lib/index');
 
-require(cliPath)(process.argv);
+
+var parser = new argparse.ArgumentParser({
+  version: require('../package.json').version,
+  addHelp: true,
+  description: "cat for JS source maps"
+});
+
+parser.addArgument(['-f', '--source-file'], {
+  help: 'source file name',
+  required: true
+});
+
+parser.addArgument(['source maps'], {
+  help: 'source maps to concatenate',
+  nargs: '*'
+});
+
+
+var args = parser.parseArgs(process.argv.slice(2));
+lib.cat(args['source_file'], args['source maps'], process.stdout);
