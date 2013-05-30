@@ -9,8 +9,11 @@
   "scripts": {
     "test": "mocha test"
   },
-  "repository": "",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/g-k/source-map-cat.git"
+  },
+  "author": "Greg Guthe",
   "license": "BSD",
   "dependencies": {
     "argparse": "~0.1.8",
