@@ -45,6 +45,8 @@ See `./test/Makefile` for a more complete example.
 * [Nick Fitzgerald's weblog](http://fitzgeraldnick.com/weblog/)
 * [Generating source maps](http://qfox.nl/weblog/281)
 * [Source map visualizer tool](http://sourcemapper.qfox.nl/)
+* [Mozilla Hacks: Compiling to JavaScript, and Debugging with Source Maps](https://hacks.mozilla.org/2013/05/compiling-to-javascript-and-debugging-with-source-maps/)
+* [Source map visualization (with colors)](http://sokra.github.io/source-map-visualization/)
 
 ##### Tools and Languages with Source Map Support
 
